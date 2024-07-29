@@ -1,6 +1,7 @@
 body {
     background-color: #cec3a3ff;
-    font-family: "space mono", monospace;
+    font-family: "Outfit", sans-serif;
+    font-size: 20px;
 }
 
 h3 {
@@ -62,7 +63,7 @@ h1 {
 }
 
 .figure-caption {
-    font-family: "space mono", monospace;
+    font-family: "Outfit", sans-serif;
     color: black;
     font-size: 2rem;
 }
