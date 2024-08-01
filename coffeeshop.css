@@ -138,3 +138,14 @@ h1 {
     background-color: #d4ccb1ff;
     color: black;
 }
+
+.img-container {
+    max-height: 700px;
+    overflow: hidden;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+
