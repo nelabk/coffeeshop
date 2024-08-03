@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/fontawesome.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/brands.css"/>
+    <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/solid.css"/>
+    <title>COFFEESHOP</title>
+    <link rel="stylesheet" href="coffeeshop.css">
+</head>
+
+<body>
+
+    <header>
+        <!-- navbar -->
+       <nav class="navbar navbar-expand-sm custom-navbar sticky-top">
+           <div class="container">
+               <h3>COFFEESHOP</h3>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#profileNavbar">
+                   <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse justify-content-end" id="profileNavbar">
+                   <ul class="navbar-nav">
+                       <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                       <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                       <li class="nav-item"><a class="nav-link" href="menu.html">Menu</a></li>
+                       <li class="nav-item"><a class="nav-link" href="gallery.html">Gallery</a></li>
+                       <li class="nav-item"><a class="nav-link active" aria-current="page" href="#">Contact Us</a></li>
+                   </ul>
+               </div>
+           </div>
+       </nav>
+
+    </header>
+
+    <!-- contact section -->
+    <div class="container">
+        <div class="row row-content align-items-center pb-5">
+            <div class="col-sm-4">
+                <h3>Visit Us</h3>
+                <address>
+                    1 Demo Street<br>
+                    Seattle, WA 98001<br>
+                    U.S.A.
+                </address>
+            </div>
+        </div>
+    
+        <div class="row row-content">
+            <div class="col-sm-4">
+                <h3>Get in Touch</h3>
+                <p>Feel free to contact us with any questions.</p>
+                <p><strong>Email</strong><br>
+                    coffee@shop.co</p>
+                <p><strong>Phone</strong><br>
+                    1-206-555-1234</p>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="row mb-3">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" id="firstName" name="firstName" placeholder="First Name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="text" id="lastName" placeholder="Last Name">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input class="form-control" type="tel" id="areaCode" placeholder="Area code">
+                        </div>
+                        <div class="col">
+                            <input class="form-control" type="tel" id="telNum" placeholder="Tel. number">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input class="form-control" type="email" id="email" name="email" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col offset-md-2">
+                            May we contact you?
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="contactYes" name="contactRadios" value="yes">
+                                <label class="form-check-label" for="contactYes">Yes</label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" id="contactNo" name="contactRadios" value="no">
+                                <label class="form-check-label" for="contactNo">No</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Feedback</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="feedback" name="feedback" rows="8"></textarea>
+                        </div>
+                    </div>
+                    <div class="row mb-3">
+                        <div class="col-md-10 offset-md-2">
+                            <button type="submit" class="custom-button">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col text-center">
+                    <h3>See more, follow us on</h3>
+                    <p><a href="http://instagram.com/"><i class="fa-brands fa-instagram fa-2xl"></i></a> @coffeeshop</p>
+                </div>
+                <div class="col text-center">
+                    <i class="fa-solid fa-phone fa-lg text-primary"></i> Tel: 1-206-555-1234<br />
+                    <i class="fa-solid fa-envelope fa-lg text-primary"></i> Email: coffee@shop.co
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
